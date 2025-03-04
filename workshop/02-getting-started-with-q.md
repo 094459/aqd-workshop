@@ -12,7 +12,7 @@ When we click on the Amazon Q status bar link at the bottom of VSCode, we will s
 
 * Pause Auto-Suggestions (Currently Running) - Amazon Q Developer provides you with suggested code blocks and snippets whilst working directly in your code. You can turn off this behaviour by clicking on this link (you will notice that it will then change to Resume Auto-Suggestions, Currently Paused, and the Amazon Q icon in the bottom status bar will also change). Every developer is different, and some prefer to have this option disabled, others enabled, so you will need to see what feels best for you. When paused, you can still invoke Amazon Q Developer to provide in-line code suggestions, by using the VSCode shortcuts (OPTION + C). Speaking of keyboard short cuts, lets check those out
 * Open Code Reference Log - the underlying models that are used to power Amazon Q Developer use some open source code repositories, using Apache 2.0 and MIT licenced source files. Should code suggestions include portions from those projects, Amazon Q Developer will let you know by outputting this to the "Code Reference Log" which you can open by clicking on this menu option. When you click on this, you may see "Don't want suggestions that include code with references? Uncheck this option in Amazon Q: Settings". When using Builder ID you are not able to change this configuration, and the default option is to always include suggestions with code references. As you use Amazon Q Developer, check in here from time to time to see whether you are using code from those open source repositoires.
-* Try inline suggestions Examples - this provides a quick tutorial to walk you through the basics of how to use Amazon Q Developer inline suggestions
+* Try inline suggestions examples - this provides a quick tutorial to walk you through the basics of how to use Amazon Q Developer inline suggestions
 * Full Project Scan is now /review - this kicks off a /review of the current project. We will explore this in more detail later on in this tutorial
 * Open Chat Panel - this will open up the Amazon Q Developer chat panel if you close it
 * Send Feedback / Connect with us on GitHub / View Documentation - these options provide you with additional ways you can provide feedback if Amazon Q Developer is not working the way you think it should
@@ -47,7 +47,7 @@ Amazon Q Developer also has some power features which are invoked using the /
 * **/transform** invokes the Amazon Q Developer Agent for transformation that helps you migrate Java 8 projects to Java 17, taking the effort out of modernising your applications. We will not be using that during this lab, but it is worth knowing about if you are working with old Java applications.
 * **/review** invokes the Amazon Q Developer Agent that will perform a review of the current project. This replaces the Security Scan feature that used to be in the Amazon Q Developer plugin
 * **/doc** invokes the Amazon Q Developer Agent that will generate README's for your project, allowing you to create or update a README file so that you can keep your project documented
-* **/test** invokes the Amazon Q Developer Agent that generates unit tests against functions. This currently only works for Java and Python code.,
+* **/test** invokes the Amazon Q Developer Agent that generates unit tests against functions. This currently only works for Java and Python code.
 
 **Note!** When using /dev and /transform with Builder IDs, you have limited quota. You can find out more on the official [Amazon Q Developer pricing page](https://aws.amazon.com/q/developer/pricing/), if you scroll half way down you will see a table which outlines the limits you have open to you.
 
@@ -147,7 +147,7 @@ We will learn more about this in the next lab.
 
 In this last section we take a look at something that you are probably going to encounter as you use Amazon Q Developer - the [AWS Responsible AI Policy](https://aws.amazon.com/machine-learning/responsible-ai/policy/).
 
-Occasionally as you use and interact with Amazon Q Developer in any of the different modalities (chat, /dev, @workspace, or in-lin), the output may come to an stop and you will be greeted a message.
+Occasionally as you use and interact with Amazon Q Developer in any of the different modalities (chat, /dev, @workspace, or in-line), the output may come to an stop and you will be greeted a message.
 
 ![Guardrail message one](/images/q-vscode-guardrail.png)
 
@@ -168,6 +168,6 @@ The guardrails provide important protection for users of Amazon Q, and the tensi
 
 ### Getting hands on in the sandbox
 
-Lets try some of these out now in the next lab which will walk you through how these work in detail. [Practicing with Amazon Q Developer](03-sandbox.md)
+Let's try some of these out now in the next lab which will walk you through how these work in detail. [Practicing with Amazon Q Developer](03-sandbox.md)
 
 
