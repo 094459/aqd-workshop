@@ -275,7 +275,7 @@ Review the output. In the same directory (data) create a new file called **"cust
 
 After a while you should see some updated code. Overwrite the contents with the output from the chat inteface (after reviewing), and then try again with the enhanced Markdown preview. You should get something like this.
 
-![documenting the application schema](/images/vscode-mermaid-show.png)
+![documenting the application schema](/images/q-erd.png)
 
 Close all the tabs in VScode.
 
